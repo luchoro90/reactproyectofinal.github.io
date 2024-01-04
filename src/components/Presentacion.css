@@ -1,0 +1,98 @@
+.banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -180px;
+    position: relative;
+    z-index: 2;
+    height: 800px;
+    text-align: center;
+    padding: 15% 0;
+    color: rgb(255, 255, 255);
+    background-image: url(../assets/img/fondo.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+
+
+.titulo-presentacion {
+    
+    z-index: 100;
+    position: relative;
+    color: rgb(129, 39, 17);
+    font-weight: bold;
+
+}
+
+.titulo-presentacion h5 {
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+
+.logo1 {
+    margin: 0;
+    width: 80px;
+    filter: drop-shadow(0px 5px 10px #bd8383);
+    cursor: pointer;
+}
+
+.logo1 :hover {
+    cursor: pointer;
+}
+
+@keyframes rotar {
+
+    from {
+        transform: rotatey(180deg);
+    }
+
+    to {
+        transform: rotatey(-180deg);
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    .banner-container {
+
+        height: 465px;
+    }
+
+    .logo1 {
+        margin-top: 03px;
+
+        width: 80px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .banner-container {
+
+        height: 465px;
+    }
+
+    .logo1 {
+
+        width: 80px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .banner-container {
+        margin-top: -60px !important;
+        height: 467px;
+    }
+
+    .logo1 {
+
+        width: 100px;
+    }
+
+}

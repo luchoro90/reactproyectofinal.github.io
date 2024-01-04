@@ -1,0 +1,43 @@
+.cardTarget {
+    margin-left:auto;
+    margin-right: auto;
+    display:block;
+    align-items: center;
+    justify-items: center;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.cardTarget:hover {
+
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1);
+    transform: translatey(-2%);
+}
+
+.inputCant {
+    display: flex;
+    margin-left: 70px;
+}
+
+img,
+svg {
+    width: 20px;
+    margin-left: 0 !important;
+}
+
+.css-l9ha7b {
+    border: 1px solid !important;
+    margin-bottom: 15px;
+}
+
+.css-cb0v6o {
+    background-color: #00071f !important;
+}
+
+.css-cb0v6o:hover {
+    background-color: #1e5513 !important;
+}

@@ -1,0 +1,17 @@
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.css-j7qwjs {
+    justify-content: center;
+}
